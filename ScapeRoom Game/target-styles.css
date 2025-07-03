@@ -21,24 +21,33 @@ h1{
     font-size: 4.2rem;
     margin-bottom: 10px;
     text-align: center;
+    margin-bottom: 35px;
 }
 p{
-    font-size: 1.7rem;
+    font-size: 1.75rem;
     max-width: 600px;
     margin-bottom: 20px;
     text-align: center;
+    color: #ffcc00;
 }
 #advertencies{
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     max-width: 550px;
     color: #ffcc00;
     text-align: center;
+}
+#red{
+    font-size: 1.65rem;
+    max-width: 550px;
+    text-align: center;
+    color: #ff0000;
+    font-weight: bold;
 }
 button{
     color: #0a0a29;
     padding: 10px 20px;
     font-size: 1.2rem;
-    background-color: #ffcc00;
+    background-color: #00B894;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -52,7 +61,42 @@ button:hover{
         font-size: 3.5rem;
     }
     p{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         max-width: 400px;
+        font-weight: bold;
+    }
+    #advertencies{
+        font-size: 1.2rem;
+        max-width: 350px;
+    }
+    #red{
+        font-size: 1.5rem;
+        max-width: 500px;
+        text-align: center;
+        color: #ff0000;
+        font-weight: bold;
+    }
+}
+@media (max-width: 376px) {
+    h1{
+        font-size: 2.7rem;
+        /* margin-bottom: 25px; */
+        /* background-color: red; */
+    }
+    p{
+        font-size: 1.35rem;
+        max-width: 350px;
+        font-weight: bold;
+    }
+    #advertencies{
+        font-size: .9rem;
+        max-width: 370px;
+    }
+    #red{
+    font-size: 1.2rem;
+    max-width: 550px;
+    text-align: center;
+    color: #ff0000;
+    font-weight: bold;
     }
 }
