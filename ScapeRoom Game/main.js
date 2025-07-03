@@ -23,8 +23,8 @@ function randomQuestion() {
             let respuestaAleatoria = seleccionAleatoria.respuesta;
             const answer = prompt(preguntaAleatoria);
             if (answer.toLowerCase() === respuestaAleatoria.toLowerCase()) {
-                alert("¡Respuesta correcta!");
                 counter++;
+                alert(`¡Respuesta correcta!\nHas acertado ${counter} preguntas.`);
             } else {
                 vidasRestantes--;
                 alert(`Respuesta incorrecta. Te quedan ${vidasRestantes} vidas.`);
@@ -39,8 +39,8 @@ function randomQuestion() {
             let respuestaAleatoria = seleccionAleatoria.respuesta;
             const answer = prompt(preguntaAleatoria);
             if (answer.toLowerCase() === respuestaAleatoria.toLowerCase()) {
-                alert("¡Respuesta correcta!");
                 counter++;
+                alert(`¡Respuesta correcta!\nHas acertado ${counter} preguntas.`);
             } else {
                 vidasRestantes--;
                 alert(`Respuesta incorrecta. Te quedan ${vidasRestantes} vidas.`);
@@ -55,14 +55,14 @@ function randomQuestion() {
             let respuestaAleatoria = seleccionAleatoria.respuesta;
             const answer = prompt(preguntaAleatoria);
             if (answer.toLowerCase() === respuestaAleatoria.toLowerCase()) {
-                alert("¡Respuesta correcta!");
                 counter++;
+                alert(`¡Respuesta correcta!\nHas acertado ${counter} preguntas.`);
             } else {
                 vidasRestantes--;
                 alert(`Respuesta incorrecta. Te quedan ${vidasRestantes} vidas.`);
             }
         }
-        if(counter === 7){
+        if(counter === 5){
             alert("¡Felicidades! Has ganado el juego ScapeRoom.");
             break;
         }
