@@ -10,7 +10,7 @@ function randomQuestion() {
     let vidasRestantes = maxVidas;
 
     // Welcome message
-    alert("¡Bienvenido al juego ScapeRoom!.\nPara ganar el juego debes completar el algoritmo respondiendo las preguntas.\nSi respondes 7 veces correctamente, ganas.\nTienes 10 vidas si las pierdes todas, pierdes el juego.\n¡Buena suerte!");
+    alert("¡Bienvenido al juego ScapeRoom!.\nPara ganar el juego debes completar el algoritmo respondiendo las preguntas.\nSi respondes 5 veces correctamente, ganas.\nTienes 10 vidas si las pierdes todas, pierdes el juego.\n¡Buena suerte!");
 
     // initializing the game
     while (vidasRestantes > 0) {
@@ -24,7 +24,11 @@ function randomQuestion() {
             const answer = prompt(preguntaAleatoria);
             if (answer.toLowerCase() === respuestaAleatoria.toLowerCase()) {
                 counter++;
-                alert(`¡Respuesta correcta!\nHas acertado ${counter} preguntas.`);
+                if (counter === 1){
+                    alert(`¡Respuesta correcta!\nHas acertado ${counter} pregunta.`);
+                } else {
+                    alert(`¡Respuesta correcta!\nHas acertado ${counter} preguntas.`);
+                }
             } else {
                 vidasRestantes--;
                 alert(`Respuesta incorrecta. Te quedan ${vidasRestantes} vidas.`);
