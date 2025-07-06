@@ -18,6 +18,10 @@ function randomQuestion() {
         let preguntaAleatoria = seleccionAleatoria.pregunta;
         let respuestaAleatoria = seleccionAleatoria.respuesta;
         const answer = prompt(preguntaAleatoria);
+        if (answer.toLocaleLowerCase() === "") {
+            alert("Juego cancelado. ¡Hasta luego!");
+            break;
+        }
         if (answer.toLowerCase() === respuestaAleatoria.toLowerCase()) {
             counter++;
             if (counter === 1){
