@@ -6,7 +6,7 @@ const questions = [
         respuesta: "París"
     },
     {
-        pregunta: "¿Cuántos días tiene una semana?",
+        pregunta: "¿Cuántos días tiene una semana?\n Responde con letras",
         respuesta: "Siete"
     },
     {
@@ -19,39 +19,39 @@ const questions = [
     },
     {
         pregunta: "¿Qué se utiliza para escribir en una pizarra?",
-        respuesta: "un Marcador"
+        respuesta: "un marcador"
     },
     {
         pregunta: "¿Qué astro nos da luz y calor durante el día?",
-        respuesta: "el Sol"
+        respuesta: "el sol"
     },
     {
         pregunta: "¿Qué idioma se habla principalmente en Brasil?",
-        respuesta: "Portugués"
+        respuesta: "portugués"
     },
     {
         pregunta: "¿Cuál es la moneda oficial de Japón?",
-        respuesta: "el Yen"
+        respuesta: "el yen"
     },
     {
-        pregunta: "¿Cuántos meses tiene un año?",
-        respuesta: "Doce"
+        pregunta: "¿Cuántos meses tiene un año?\n Responde con letras",
+        respuesta: "doce"
     },
     {
         pregunta: "¿Qué órgano del cuerpo humano se usa para bombear la sangre?",
-        respuesta: "el Corazón"
+        respuesta: "el corazón"
     },
     {
         pregunta: "¿Qué civilización antigua construyó el Coliseo Romano?",
-        respuesta: "los Romanos"
+        respuesta: "los romanos"
     },
     {
         pregunta: "¿En qué país se encuentran las pirámides de Giza?",
-        respuesta: "en Egipto"
+        respuesta: "En egipto"
     },
     {
-        pregunta: "¿Cuántos continentes hay en el mundo?",
-        respuesta: "Siete"
+        pregunta: "¿Cuántos continentes hay en el mundo?\n Responde con letras",
+        respuesta: "siete"
     },
     // Complex Questions
     {
@@ -71,7 +71,7 @@ const questions = [
         respuesta: "el Oxígeno"
     },
     {
-        pregunta: "¿En qué año comenzó la Primera Guerra Mundial?",
+        pregunta: "¿En qué año comenzó la Primera Guerra Mundial?\n Responde con números",
         respuesta: "en 1914"
     },
     {
@@ -87,7 +87,7 @@ const questions = [
         respuesta: "Sócrates"
     },
     {
-        pregunta: "¿En qué año cayó el Muro de Berlín?",
+        pregunta: "¿En qué año cayó el Muro de Berlín?\n Responde con números",
         respuesta: "en 1989"
     },
     {
