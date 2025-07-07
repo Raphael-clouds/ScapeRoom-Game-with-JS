@@ -31,7 +31,7 @@ function randomQuestion() {
                 }
         } else {
             vidasRestantes--;
-            alert(`La respuesta CORRECTA es ${respuestaAleatoria}.\nTe quedan ${vidasRestantes} vidas.`);
+            alert(`La respuesta CORRECTA es '${respuestaAleatoria}'.\nTe quedan ${vidasRestantes} vidas.`);
         }
         if (vidasRestantes === 0) {
             alert("Has perdido el juego ScapeRoom. ¡Inténtalo de nuevo!");
